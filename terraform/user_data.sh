@@ -7,9 +7,9 @@ sudo yum update -y
 sudo yum install -y java-1.8.0-openjdk  # Install OpenJDK 8
 
 # Download and extract Kafka
-wget https://downloads.apache.org/kafka/3.7.1/kafka_2.13-3.7.1.tgz
-tar -xzf kafka_2.13-3.7.1.tgz
-cd kafka_2.13-3.7.1
+wget https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz
+tar -xzf kafka_2.13-3.9.0.tgz
+cd kafka_2.13-3.9.0
 
 # Obtain public IP
 PUBLIC_IP=$(curl -s http://checkip.amazonaws.com)
